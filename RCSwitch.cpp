@@ -90,7 +90,7 @@ static const RCSwitch::Protocol PROGMEM proto[] = {
   { 200, { 130, 7 }, {  16, 7 }, { 16,  3 }, true},      // protocol 9 Conrad RS-200 TX
   { 365, { 18,  1 }, {  3,  1 }, {  1,  3 }, true },     // protocol 10 (1ByOne Doorbell)
   { 270, { 36,  1 }, {  1,  2 }, {  2,  1 }, true },     // protocol 11 (HT12E)
-  { 320, { 36,  1 }, {  1,  2 }, {  2,  1 }, true }      // protocol 12 (SM5212)
+  { 320, { 36,  1 }, {  1,  2 }, {  2,  1 }, true },      // protocol 12 (SM5212)
   { 300, {  1, 33 }, {  1,  1 }, {  1,  4 }, false, { 1, 9 } },    // protocol 13 Home easy
 };
 
